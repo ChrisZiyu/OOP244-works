@@ -1,7 +1,6 @@
 #ifndef SDDS_SHOPPINGREC_H
 #define SDDS_SHOPPINGREC_H
-#include <iostream>
-#include <cstdio>
+
 const int MAX_TITLE_LENGTH = 50;
 
 namespace sdds{

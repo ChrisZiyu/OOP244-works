@@ -1,0 +1,21 @@
+/***********************************************************************
+// Intro. to Object Oriented Programming
+// Workshop 1 Part 2
+// Version 1.0
+// Reflection.txt
+// 
+//
+// Revision History
+// -----------------------------------------------------------
+// Name  Christian Ziyu Ukiike          Date:5/22/2023            Reason
+//
+/////////////////////////////////////////////////////////////////
+***********************************************************************/
+The function strCpy I used it in my code to get the source and copy it to the destination after that the sourc had the string "abcdefghijklmnopqrstuvwxyz", the str2 will copy character by character by just taking the indexes until it reaches the null terminator after that the destination need to have a null terminator to make sure the copied character string was safely copied.
+
+After that the st1 needed to add the string “@@@” again it copies the characters from source to destination string des to the specified length. The loop iterates as long as i is less than len and the character on index i is not the null character. This makes the loop to keep going until it reaches the null character. The source again it is copied to the destination but now with index i and that index [i] will have an increment to get the next character. The str2 with length 2 will change two characters in the str2 since the index starts from 0 it will modify a b to @@. After that I added a condition that to display the character str2 with the changes and clear the input buffer.
+StrCmp compares character between two strings with the length it will loop the indexes and comparing them if the ascii value is higher than the s2 it will give 1 and if it less it will give -1.
+
+StrLen if the argument is an empty string it will find the null terminator and immediately terminates since the length is equal to 0 therefore the output is equal to 0. Then to get the number of characters in the string s, the index in s will go through a for loop as long it doesn’t find a null terminator then it will display the length since it was stored inside the loop with increments of 1 giving the total of 26.
+strStr it takes two arguments, one the source str1 and the substring str2 to search for wich in this case is storing JKL.  The pointer of *str will keep going index until it reaches to the index where j is stored and then compare it with str2 pointer if theres a match the str1 and str will change to jkl+the rest of the string then if the p2 pointer if the null pointer is reached will store the str1 into fadd.
+StrnCat will  add the src after the des so what I did is get the strlen of both string one containing 3 and 5 and store them into a variable each. Then the strcpy function is called to copy characters from src to the end of des the value taken is from strlen from the destination so it will takes the 5 indexes and store john then take the 3 indexes and store doe then gives john doe + the src string remaining , in order to get rid of the remaining str1 I added the des[desLen + srcLen] = '\0'; in order for the string to end with a null terminator.

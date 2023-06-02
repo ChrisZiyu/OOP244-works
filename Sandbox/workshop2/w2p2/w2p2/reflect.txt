@@ -1,0 +1,14 @@
+/***********************************************************************
+// Intro. to Object Oriented Programming
+// Workshop 2 Part 1
+// Version 1.0
+// Description
+// professor's tester program
+//
+// Revision History
+// -----------------------------------------------------------
+// Name  Christian Ziyu Ukiike          Date:5/27/2023            Reason
+//
+/////////////////////////////////////////////////////////////////
+***********************************************************************/
+I allocated dynamic memory by creating an array of population object using the new operator. That function size was set to the number of records then loop it so I can get the postal code and population number then strcpy that after the read was successful and pointer of population needed to be set to a nullptr to get read of any garbage values. The *pop holds the address of the dynamically allocated memory for the population object. After that is declared I added values as pop[i].postal code which will hold the postal code values that was read from the file. After that the noofrecords was read and the scan go through all the records. The values were stored and then pop need to be deallocated, so it doesn’t cause any memory leaks and also set to nullptr. When using a & reference is to pass by reference to the memory address in order to access and modify the original variable within a function. Which in this workshop p2 we didn’t modify any value. The main purpose of using a overloaded function is to perform a same operation with different data types. If the default functions() is called since its overloaded it will go through all of the same name functions and it will decide which one to use if no function can check to true it wont compile. This makes the code to handle various scenarios.
