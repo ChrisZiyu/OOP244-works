@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\oop244\\oop244-works\\sandbox\\workshop3\\w3p1\\billtester.cpp",
+        "ProvidedModule": "",
+        "Includes": [
+            "c:\\oop244\\oop244-works\\sandbox\\workshop3\\w3p1\\bill.h",
+            "c:\\oop244\\oop244-works\\sandbox\\workshop3\\w3p1\\item.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
